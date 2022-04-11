@@ -1,11 +1,151 @@
 body{
     margin:0px;
+    color: white;
 }
-.topNav{
+.navContainer{
+    display:flex;
+    justify-content: center;
     width:100%;
     height:80px;
     background-color: black;
 }
-i{
-    color:wheat;
+.fa-spotify{
+    color:white;
+    font-size: 45px;
+}
+.logo_name{
+    font-size: 30px;
+    font-weight: bold;
+}
+.navBar{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width:1200px;
+    height:100%;
+    /* background-color: rgb(82, 53, 0); */
+}
+.navLogo{
+    display: flex;
+    align-items: center;
+    padding:0 15px;
+}
+.navLogo span{
+    padding-left: 7px;
+}
+.navMenu{
+    padding:0 15px;
+}
+.navMenu span{
+    padding:0 21px;
+    font-weight: bold;
+}
+.menuDownload{
+    border-right: 1px solid white;
+}
+/*  campaign   */
+.campaignContainer{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    height:467px;
+    background-color:#f5c8cc;
+    color:black;
+}
+.campaign{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:1200px;
+    /* background-color: burlywood; */
+}
+.campaignInfo{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:600px;
+    height: 350px;
+    padding:0 15px;
+}
+.infoMember{
+    font-size: 43px;
+    font-weight: bold;
+    width:700px;
+}
+.infoPrice{
+    font-size: 23px;
+    font-weight:normal;
+    width:390px;
+}
+.infoBtn{
+    display:flex;
+}
+.infobtn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    border-radius: 30px;
+    width:115px;
+    height: 50px;
+    font-size: 15px;
+}
+.btnStart{
+    background-color: black;
+    color:white;
+    margin-right: 9px;
+}
+.btnStart:hover{
+    background-color: rgb(206, 206, 206);
+    color:rgb(0, 0, 0);
+}
+.btnPlan:hover{
+    background-color: rgb(255, 228, 204);
+}
+.infoDetail{
+    font-size: 12px;
+    color:rgb(85, 85, 85)
+}
+.campaignImage img{
+    width:350px;
+    height: 350px;
+    padding:0 15px;
+}
+/*  appDownlaod  */
+.appContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    width:100%;
+    height:467px;
+    background-color: #f7f7f7;
+}
+.appDownload{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:1200px;
+    height: 270px;
+    /* background-color: blanchedalmond; */
+}
+.appTitle{
+    font-size: 43px;
+    font-weight: bold;
+}
+.appInfo{
+    margin: 10px 0;
+    font-size: 25px;
+}
+.infoPlay{
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+.appPolicy{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:920px;
+    font-size: 10px;
 }
